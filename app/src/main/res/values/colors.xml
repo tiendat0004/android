@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#EAEAEA</color>
+    <color name="moccasin_200">#D3B792</color>
+    <color name="moccasin_100">#EEE2D1</color>
+    <color name="grey_100">#EAEAEA</color>
+    <color name="grey_200">#AAAAAA</color>
+    <color name="grey_300">#7D7D7D</color>
+    <color name="red_500">#DE3535</color>
+
+</resources>

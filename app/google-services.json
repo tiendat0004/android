@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296319451673",
+    "project_id": "baithicuoikyebook",
+    "storage_bucket": "baithicuoikyebook.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296319451673:android:0bc70d4f3a1dce3269e088",
+        "android_client_info": {
+          "package_name": "vn.edu.tlu.baithicuoiky.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEQQB5JnVG2SgJeBvrF6VO5wpAIYlfYlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

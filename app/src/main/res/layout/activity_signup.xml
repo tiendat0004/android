@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/img_book"
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:contentDescription="@null"
+            android:src="@drawable/book" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_book"
+            android:fontFamily="@font/inter_bold"
+            android:layout_marginTop="10dp"
+            android:text="Đăng kí"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edt_bkg"
+            android:paddingStart="30dp"
+            android:hint="Tên"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edt_bkg"
+            android:paddingStart="30dp"
+            android:hint="Email"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edt_bkg"
+            android:paddingStart="30dp"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/ic_eye_off"
+            android:drawablePadding="20dp"
+            android:paddingEnd="15dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular" />
+
+        <EditText
+            android:id="@+id/edt_confirm"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edt_bkg"
+            android:paddingStart="30dp"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular" />
+
+        <Button
+            android:id="@+id/btn_Signup"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/inter_regular"
+            android:text="Đăng kí"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_regular"
+            android:textSize="15sp"
+            android:text="Bạn đã có tài khoản? "
+            android:textColor="@color/grey_200" />
+
+        <TextView
+            android:id="@+id/tv_Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="15sp"
+            android:text="Đăng nhập"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

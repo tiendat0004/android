@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+        <ImageView
+            android:id="@+id/img_book"
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:layout_margin="0dp"
+            android:contentDescription="@null"
+            android:src="@drawable/book"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_book"
+            android:fontFamily="@font/inter_bold"
+            android:layout_marginTop="10dp"
+            android:text="Đăng Nhập"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edt_bkg"
+            android:fontFamily="@font/inter_regular"
+            android:hint="Email"
+            android:paddingStart="30dp"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edt_bkg"
+            android:paddingStart="30dp"
+            android:layout_gravity="center"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:drawableEnd="@drawable/ic_eye_off"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_forgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Quên mật khẩu?"
+            android:fontFamily="@font/inter_regular"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/inter_regular"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"
+            android:text="Đăng Nhập"
+
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_regular"
+            android:textSize="15sp"
+
+            android:text="Bạn chưa có tài khoản? "
+            android:textColor="@color/grey_200"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/tv_Signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="15sp"
+
+            android:text="Đăng kí"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
